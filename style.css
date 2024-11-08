@@ -1,0 +1,95 @@
+:root {
+    --cor-principal: #9C27B0; /* Roxo vibrante */
+    --cor-escura: #512DA8; /* Roxo escuro */
+    --cor-clara: #FBC02D; /* Amarelo vibrante */
+    --cor-fundo-texto: #1C1C1C; /* Cinza escuro / preto suave */
+    --cor-texto-destaque: #FFEB3B; /* Amarelo suave */
+    --paragrafo: 22px;
+    --titulo: 40px;
+    --subtitulo: 32px;
+}
+body {
+    font-family: "Lato", sans-serif !important;
+}
+.navbar {
+    background-color: var(--cor-escura) !important;
+    height: 12vh;
+}
+
+.navbar a {
+    color: var(--cor-clara);
+    padding: 0px 50px;
+}
+
+.navbar ul li {
+    padding: 0px 15px;
+    margin: 10px;
+}
+
+.navbar-nav {
+    right: 1px;
+    font-size: var(--paragrafo);
+    display: flex;
+    float: right;
+}
+
+.sobre-nos-1 {
+    background-color: #F2F2F2;
+    padding-top: 45px;
+}
+
+.titulo-subtitulo {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.text-box {
+    background-color: var(--cor-clara);
+    color: #111;
+    width: calc(350px + 20vh);
+    height: 150px;
+    border-radius: 20px;
+    margin: 20px auto;
+}
+
+.icon i {
+    font-size: 30px;
+}
+
+.icon {
+    display: flex;
+    float: left;
+    align-items: center;
+    align-content: center;
+}
+
+footer {
+    padding: 5vh 0px;
+    background-color: var(--cor-escura);
+    color: var(--cor-clara);
+}
+
+footer h1 {
+    font-size: var(--titulo);
+    font-weight: 600;
+}
+
+footer p {
+    font-size: var(--paragrafo);
+}
+
+footer .form-control {
+    padding: 10px;
+    background-color: var(--cor-escura) !important;
+    border: 1px solid var(--cor-clara);
+}
+
+footer form button {
+    background-color: var(--cor-texto-destaque) !important;
+    padding: 2vh;
+    margin-top: 10px;
+    width: 100%;
+    font-size: var(--paragrafo);
+    color: var(--cor-escura);
+    border: 1px solid var(--cor-fundo-texto);
+}
