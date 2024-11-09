@@ -13,7 +13,6 @@ body {
 }
 .navbar {
     background-color: var(--cor-escura) !important;
-    height: 12vh;
 }
 
 .navbar a {
